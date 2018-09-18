@@ -1,0 +1,27 @@
+.navigation
+{
+    top:0;
+    left:0;
+    right: 0;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:  12px;
+    padding-left: 12px;
+}
+.navigation-button
+{
+    background-color: #54c242;
+    height: 46px;
+    width: 114px;
+    color:white;
+}
+.navigation-title{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+

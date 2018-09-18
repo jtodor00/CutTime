@@ -1,0 +1,39 @@
+.modal-custom-backdrop{
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.modal-custom-closed{
+    display: none;
+}
+.modal-custom-container
+{
+    position: absolute;
+    width: 80%;
+    max-width: 500px;
+    background-color: white;
+    max-height: calc(100vh - 100px);
+    z-index: 1100;
+}
+.modal-custom-close-icon
+{
+   
+    z-index: 1100;
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+    height: auto;
+    width: auto;
+    position: absolute;
+    display: flex;
+    top: -40px;
+    right: -35px;
+    cursor: pointer;
+}

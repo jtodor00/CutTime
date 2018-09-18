@@ -1,0 +1,177 @@
+.General-Info
+{
+    width: 100%;
+    height: auto;
+}
+.Container
+{
+    padding-top: 30px;
+    text-align: center;
+    
+}
+.OurServices
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+   
+}
+.OurTeam
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(20,20,20);
+}
+.Service:hover{
+    transform: scale(1.01);
+}
+@media screen and (min-width : 50px) {
+    .Service
+    {
+        width: 70%;
+        margin: auto;
+        padding: 20px;
+        height: auto;
+        background-color: white;
+        margin-bottom: 20px;
+    }
+    .footer
+    {
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(2,400px);
+    grid-template-areas: "footer-location" "footer-info";
+    }
+
+}
+@media screen and (min-width : 800px) {
+    .OurServices
+    {
+        padding-left: 30px;
+        padding-right: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .OurTeam
+    {
+        padding-left: 30px;
+        padding-right: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .Service
+    {
+        width: 95%;
+        margin: auto;
+       
+    }
+    .footer
+    {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 0;
+    grid-template-areas: "footer-info footer-location";
+    }
+
+}
+.heading{
+
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.headingText
+{
+    color:rgb(66, 1, 1, 1);
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.headingLine
+{
+    border : 2px solid rgb(66, 1, 1);
+    width: 80%;
+    
+}
+
+.service-text{
+    padding-top: 20px;
+}
+.employee-top-wrap
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.employe-name-age-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.employee-image{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+.employee-name{
+    padding-left: 10px;
+    font-weight:600;
+}
+.employee-age{
+    padding-left: 10px;
+    font-weight:200;
+}
+
+
+
+.footer-company-info
+{
+    grid-area: footer-info;
+    background-color: rgba(20,20,20);
+    width: 100%;
+    height: 400px;
+    color: #6c3c8c;
+    border-top: 0.1px solid #4e4e4e;
+    padding-top: 50px;
+}
+.footer-heading{
+    font-size: 30px;
+    font-weight: 350;
+    height: auto;
+    text-align: center;
+}
+.phone-number
+{
+    text-align: center;
+    margin-top: 25px;
+    color: #FFF;
+    font-weight: 400;
+    font-size:20px;
+}
+.adress{
+    text-align: center;
+    color: #FFF;
+    font-weight: 400;
+    font-size:20px;
+}
+.copyright{
+    margin-top:180px;
+    text-align: center;
+
+}
+.footer-company-location
+{
+    grid-area: footer-location;
+    background-color:white;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+

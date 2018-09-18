@@ -1,0 +1,65 @@
+.TreatmentSelect{
+    cursor: pointer;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 70%;
+    background-color: #6c3c8c;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    box-shadow:0px 6px 16px 1px rgba(0, 0, 0, 0.67);
+}
+.TreatmentSelectIcon
+{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+.treatment-icon
+{
+    height: 35px;
+}
+.TreatmentSelectText
+{
+    padding-left: 15px;
+}
+@media screen and (min-width : 50px) {
+    .TreatmentSelect{
+        width: 80%;
+    } 
+ }
+ @media screen and (min-width : 350px) {
+     .TreatmentSelect{
+         width: 70%;
+     } 
+  }
+ @media screen and (min-width : 550px) {
+     .TreatmentSelect{
+         width: 50%;
+     } 
+ }
+ @media screen and (min-width : 800px) {
+     .TreatmentSelect{
+         width: 40%;
+     } 
+ }
+ @media screen and (min-width : 1000px) {
+     .TreatmentSelect{
+         width: 35%;
+     } 
+ }
+ @media screen and (min-width : 1200px) {
+     .TreatmentSelect{
+         width: 30%;
+     } 
+ }
+ @media screen and (min-width : 1600px) {
+     .TreatmentSelect{
+         width: 25%;
+     } 
+ }

@@ -1,0 +1,93 @@
+.treatment-container
+{
+    width:100%;
+    display: grid;
+    grid-template-rows: 60px 1fr 120px;
+    grid-template-areas: "treatment-header"
+    "treatment-selection-field"
+    "treatment-confirmation";
+}
+
+.treatment-header
+{
+    background-color: #FFF;
+    grid-area: treatment-header;
+    width: 100%;
+    height:100%;
+    padding: 0px 10px 0 10px;
+    color: #6c3c8c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 450;
+}
+.close-icon
+{
+    color:#707070;
+}
+.treatment-selection-field
+{
+    grid-area: treatment-selection-field;
+    padding: 15px 10px 20px 10px;
+    max-height: calc(100vh - 280px);
+    overflow-y: auto;
+ 
+}
+@media screen and (min-width:50px)
+{
+    .treatment-selection-field
+    {
+        display: grid;
+        grid-auto-rows: 50px;
+        grid-gap: 5px;
+    }
+}
+/* @media screen and (min-width:450px)
+{
+    .treatment-selection-field
+    {
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+    }
+} */
+.treatment-confirmation
+{
+    grid-area: treatment-confirmation;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #FFF;
+}
+.confirmation-price
+{
+    color: #6c3c8c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.confirmation-btn-container 
+{
+    padding: 10px 0 10px 0;
+}
+.confirmation-btn {
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 1px 1px 3px #666666;
+    border: 1px solid #6c3c8c;
+    width: 100%;
+    border-radius: 4px;
+    color: #6c3c8c;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  .confirmation-btn:hover{
+    background-color: #6c3c8c;
+    color: white;
+    
+  }
+
+  

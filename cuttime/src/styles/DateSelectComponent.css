@@ -1,0 +1,59 @@
+.DateSelect{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #6c3c8c;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow:0px 6px 16px 1px rgba(0, 0, 0, 0.67);
+}
+.DateSelectIcon
+{
+    width: 10%;
+    font-size: 25px;
+}
+.DateSelectText
+{
+    padding-left: 15px;
+}
+@media screen and (min-width : 50px) {
+   .DateSelect{
+       width: 80%;
+   } 
+}
+@media screen and (min-width : 350px) {
+    .DateSelect{
+        width: 70%;
+    } 
+ }
+@media screen and (min-width : 550px) {
+    .DateSelect{
+        width: 50%;
+    } 
+}
+@media screen and (min-width : 800px) {
+    .DateSelect{
+        width: 40%;
+    } 
+}
+@media screen and (min-width : 1000px) {
+    .DateSelect{
+        width: 35%;
+    } 
+}
+@media screen and (min-width : 1200px) {
+    .DateSelect{
+        width: 30%;
+    } 
+}
+@media screen and (min-width : 1600px) {
+    .DateSelect{
+        width: 25%;
+    } 
+}

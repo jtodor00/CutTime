@@ -1,0 +1,39 @@
+.treatment
+{
+    cursor: pointer;
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-img
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.treatment-img{
+    max-height: 40px;
+}
+.treatment-img > img{
+    max-height: 40px;
+}
+.treatment-name
+{
+    padding-left: 15px;
+}
+
+.treatment-selected{
+    background-color: #589025;
+    color: white;
+}
+.treatment:hover{
+    transform: scale(1.01);
+}

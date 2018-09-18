@@ -1,0 +1,96 @@
+.calendar-container
+{
+    width:100%;
+    display: grid;
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-areas: "calendar-header"
+    "calendar-dates"
+    "btn-container";
+}
+
+.calendar-header
+{
+    background-color: #6c3c8c;
+    grid-area: calendar-header;
+    width: 100%;
+    height:100%;
+    padding: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-current-month{
+    
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+.calendar-dates{
+    grid-area: calendar-dates;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(7,1fr);
+    justify-content: center;
+
+}
+.day
+{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.today
+{
+    border: 1px solid #54c242;
+}
+.d_h
+{
+    font-weight: 450;
+    
+}
+.date-selected
+{
+    background-color:#54c242;
+    color: white;
+}
+.hide-arrow
+{
+    color:#6c3c8c;
+    font-size: 25px;
+    cursor: auto;
+}
+.header-arrow
+{
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn-container
+{
+    grid-area: btn-container;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.btn-text
+{
+    cursor: pointer;
+    color: #6c3c8c;
+    padding-right: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.disabled-date
+{
+    color:#d4d4d4;
+    cursor:auto;
+}
