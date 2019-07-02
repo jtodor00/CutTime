@@ -19,6 +19,7 @@ export class Treatment extends Component {
                 <div className="treatment-name">{this.props.treatment.name}</div>
                 </div>
 				<p>Jure</p>
+				<p>Todorić<p/>
             </div>  
         );
     }
