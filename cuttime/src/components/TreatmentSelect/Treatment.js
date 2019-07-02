@@ -18,7 +18,7 @@ export class Treatment extends Component {
                 <div className="treatment-img"><img src={this.props.treatment.image} alt={this.props.name + " image"}/></div>
                 <div className="treatment-name">{this.props.treatment.name}</div>
                 </div>
-                <div className="treatment-price">{this.props.treatment.price + " KN"}</div>
+				<p>Jure</p>
             </div>  
         );
     }
