@@ -20,6 +20,7 @@ export class Treatment extends Component {
                 </div>
 				<p>Jure</p>
 				<p>Todorić<p/>
+				<p>Gospodin</p>
             </div>  
         );
     }
